@@ -19,6 +19,7 @@
   }
   
   .logo {
+    position: relative;
     display: inline-block;
     height: 50px;
     width: 50px;
@@ -28,7 +29,7 @@
   }
   
   .logo img {
-    height: 50%;
+    height: 190%;
     width: auto;
     margin-top: -20px;
     margin-left: -20px;
