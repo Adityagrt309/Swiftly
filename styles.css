@@ -14,6 +14,8 @@
     margin: 0%;
     padding: 0%;
     background-color: #F87E01;
+    display: grid;
+    grid-template-column: 45% 1fr;
   }
   
   .logo {
@@ -38,6 +40,7 @@
     justify-content: right;
   }
   .bodylogo{
+    position: relative;
     height: 120%;
     width: auto;
     margin-top: -10%;
