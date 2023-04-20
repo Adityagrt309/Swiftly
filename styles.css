@@ -1,0 +1,89 @@
+.header {
+    margin: 0%;
+    padding: 0%;
+    min-height: 50px;
+    max-height: 50px;
+    width: 100%;
+    color: #031D36;
+    border-style: solid;
+    background-color: #031D36;
+    position: static;
+  }
+  
+  body {
+    margin: 0%;
+    padding: 0%;
+  }
+  
+  .logo {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background: transparent;
+    border-style: solid;
+    border-color: #031D36;
+  }
+  
+  .logo img {
+    height: 190%;
+    width: auto;
+    margin-top: -20px;
+    margin-left: -20px;
+  }
+  
+  .left-section {
+    display: inline-block;
+    vertical-align: middle;
+    justify-content: right;
+  }
+  .bodylogo{
+    height: 600px;
+    width: auto;
+    margin-top: -16%;
+  }
+  .container{
+    font-family: 'Poppins', sans-serif;
+    color: #031D36;
+    display: inline-block;
+    position: relative;
+    margin-right: 4%;
+  }
+  .body{
+    padding-top: 5%;
+    display: grid;
+    grid-template-columns: 600px 1fr ;
+  }
+  .right-section {
+    margin-left: 88%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 0.8%;
+    justify-content: space-between;
+  }
+
+ .login-button {
+    display: flex;
+    height: 70%;
+    position: relative;
+    vertical-align: middle;
+    width: auto;
+    background: transparent;
+    border-style: solid;
+    border-color: hsl(209, 89%, 11%);
+    color: #fff;
+    justify-content: space-between;
+    
+ 
+  }
+  
+  .login-button p {
+    display: inline-block;
+    margin: 0;
+   font-size: large;
+  }
+  .login-button img {
+    position: relative;
+    height: 16px;
+    width: auto;
+  }
+  
